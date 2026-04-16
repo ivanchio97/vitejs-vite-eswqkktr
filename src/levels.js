@@ -36,7 +36,7 @@ export const levels = [
     robots: ["C1", "C2", "C3"],
   },
   {
-    instruction: "Nivel 5: Espacio entre cada robot",
+    instruction: "Nivel 5: Espacio de 20px entre cada robot",
     hint: "gap",
     expected: {
       display: "flex",
@@ -55,7 +55,7 @@ export const levels = [
     robots: ["E1", "E2"],
   },
   {
-    instruction: "Nivel 7: Columna centrada con espacio",
+    instruction: "Nivel 7: Columna centrada con espacio de 15px",
     hint: "flex-direction + align-items + gap",
     expected: {
       display: "flex",
@@ -66,7 +66,7 @@ export const levels = [
     robots: ["F1", "F2", "F3"],
   },
   {
-    instruction: "Nivel 8: Distribuye con espacio alrededor",
+    instruction: "Nivel 8: Separa los robots con espacio alrededor",
     hint: "space-around",
     expected: {
       display: "flex",
@@ -85,7 +85,7 @@ export const levels = [
     robots: ["H1", "H2", "H3"],
   },
   {
-    instruction: "Nivel 10: Todo centrado en columna con espacio",
+    instruction: "Nivel 10: Todo centrado en columna con espacio de 20px",
     hint: "todo combinado",
     expected: {
       display: "flex",
